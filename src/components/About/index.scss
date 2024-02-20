@@ -1,0 +1,44 @@
+.container.about-page {
+      font-size: 53px;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      color: #ffd700;
+      font-weight: 400;
+      margin-top: 0;
+      margin-bottom: 40px;
+      left: 40px;
+      text-align: left;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;600;700;800;900&display=swap');
+
+.text-shpere {
+    
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: right;
+    align-items: left;
+    background: transparent;
+}
+
+.tagcloud {
+    display: inline-block;
+    top: 0;
+    left: 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.0625em;
+    font-size: 1.3em;
+}
+
+.tagcloud--item {
+    
+    color: #fff;
+}
+
+.tagcloud--item:hover {
+    color: #ffd700;
+}

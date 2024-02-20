@@ -6,7 +6,6 @@ import LogoSubtitle from '../../assets/images/logo_sub2.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHome, faUser, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
-import Home from '../Home'
 
 
 const Sidebar = () => {
