@@ -34,26 +34,28 @@
   
     input[type='text'],
     input[type='email'] {
+      font-family: Arial, Helvetica, sans-serif;
       width: 100%;
       border: 0;
       background: #115173;
       height: 50px;
       font-size: 16px;
-      color: #fff;
       padding: 0 20px;
       box-sizing: border-box;
+      color: aliceblue;
     }
   
     textarea {
+      font-family: Arial, Helvetica, sans-serif;
       width: 100%;
       border: 0;
       background: #115173;
       height: 50px;
       font-size: 16px;
-      color: #fff;
       padding: 20px;
       box-sizing: border-box;
       min-height: 150px;
+      color: aliceblue;
     }
   
     .flat-button {
@@ -88,4 +90,5 @@
 
 :placeholder-shown{
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #115173;
 }

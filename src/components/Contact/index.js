@@ -14,11 +14,11 @@ const Contact = () => {
     e.preventDefault()
 
     emailjs
-      .sendForm('service_ttbc5ne', 'template_jbzv9ge', form.current)
+      .sendForm('service_ttbc5ne', 'template_jbzv9ge', form.current, 'aH0m_pWUx4-H6zZ8c')
       .then(
         () => {
           alert('Message successfully sent!')
-          window.location.reload(false)
+          window.location.reload(true)
         },
         () => {
           alert('Failed to send the message, please try again')
