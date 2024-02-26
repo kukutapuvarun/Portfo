@@ -14,11 +14,11 @@ const Contact = () => {
     e.preventDefault()
 
     emailjs
-      .sendForm('service_ttbc5ne', 'template_jbzv9ge', form.current, 'aH0m_pWUx4-H6zZ8c')
+      .sendForm('service_ttbc5ne', 'template_jbzv9ge', form.current)
       .then(
         () => {
           alert('Message successfully sent!')
-          window.location.reload(true)
+          window.location.reload(false)
         },
         () => {
           alert('Failed to send the message, please try again')
@@ -45,7 +45,7 @@ const Contact = () => {
             <form ref={form} onSubmit={sendEmail}>
               <ul>
                 <li className="half">
-                  <input placeholder="Name" type="text" name="name" required />
+                  <input placeholder="Your Name" type="text" name="name" required />
                 </li>
                 <li className="half">
                   <input
