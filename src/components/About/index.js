@@ -26,7 +26,7 @@ const About = () => {
           <p>
             My passion for problem-solving and research fuel my enthusiasm for tackling complex technical challenges. This, combined with my innate aptitude for rapid assimilation of new concepts, empowers me to thrive in dynamic learning environments.
           </p>
-          <a href ="https://drive.google.com/file/d/1_CbeKK5k-RaEPofWUAfydCwqBMqVTWSK/view?usp=sharing" attributes-list download className="flat-button"> MY RESUME </a>  
+          <a href ="https://drive.google.com/file/d/1DlReKtNx39riTMefsHUneD9LPhUjy5Z1/view?usp=drivesdk" attributes-list download className="flat-button"> MY RESUME </a>  
         </div>
         
       </div>
