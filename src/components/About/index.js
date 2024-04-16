@@ -34,5 +34,5 @@ const About = () => {
     </>
   );
 };
+
 export default About;
-//downloadable resume
