@@ -116,69 +116,8 @@
   }
 }
 
-@media screen and (max-width: 1200px) {
-
-  .page {
-    width: auto;
-    height: auto;
-    position: initial;
-  }
-  
-  .top-tags {
-    bottom: auto; 
-  }
-  
-  .bottom-tag-html {
-    margin-left: 20px;
-    
-  }
-
-  .home-page .nametag {
-    margin-top: 15%;
-    margin-left: 10%;
-  }
-
-  .container {
-    position: initial;
-    height: auto;
-    min-height: auto;
-
-    &.contact-page,
-    &.about-page,
-    &.portfolio-page {
-      .text-zone {
-        position: absolute;
-        transform: none;
-        width: 70%;
-        display: block;
-        padding: 20px;
-        box-sizing: border-box;
-      }
-    }
-
-    &.portfolio-page {
-      width: 100%;
-      padding: 20px;
-      box-sizing: border-box;
-
-      h1.page-title {
-        margin-left: 20px;
-        margin-top: 30px;
-      }
-
-      .image-box {
-        height: 200px;
-        max-width: calc(50% - 10px);
-      }
-    }
-  }
-
-  .stage-cube-cont {
-    display: flex;
-    position: absolute;
-    width: 100%;
-    height: auto;
-    overflow: visible;
-    display: flex;
+@media screen and (max-width: 400px) {
+  .tags{
+    display: none;
   }
 }

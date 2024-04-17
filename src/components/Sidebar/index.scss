@@ -7,6 +7,11 @@
     z-index: 3;
     min-height: 500px;
 
+    .hamburger-icon,
+     .close-icon {
+        display: none;
+     }
+
     .logo{
         display: block;
         padding: 8px 6px;
@@ -126,3 +131,9 @@
     }
 }
 
+// interactive
+@media(max-width: 1080px){
+    .nav-bar{
+        min-height: 400px;
+    }
+}
