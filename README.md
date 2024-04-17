@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# [My Portfolio](https://varunkumarsportfolio.netlify.app/)
 
 ## Available Scripts
 
@@ -25,7 +25,7 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://portfolio--varunkumarportfolio516.netlify.app) for more information.
+See the section about [deployment](https://varunkumarsportfolio.netlify.app/) for more information.
 
 ### `npm run eject`
 
