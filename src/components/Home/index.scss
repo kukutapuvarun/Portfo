@@ -144,10 +144,11 @@
 @media (max-width:727px){
   .home-page{
     .text-zone h1{
+      width: 160%;
       font-size: 31px;
     }
     h1.nametag::after{
-      right: -70px;
+      right: -95px;
       top: 110px;
     }
     h2{
