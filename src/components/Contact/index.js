@@ -45,18 +45,33 @@ const Contact = () => {
             <form ref={form} onSubmit={sendEmail}>
               <ul>
                 <li className="half">
-                  <input placeholder="Your Name" type="text" name="name" required />
+                <div className="wave-group">
+                <input type="text" className="input" required />
+                <span className="bar"></span>
+                <label className="label">
+                  <span className="label-char" style={{ '--index': 0 }}>N</span>
+                  <span className="label-char" style={{ '--index': 1 }}>a</span>
+                  <span className="label-char" style={{ '--index': 2 }}>m</span>
+                  <span className="label-char" style={{ '--index': 3 }}>e</span>
+                </label>
+              </div>
                 </li>
                 <li className="half">
-                  <input
-                    placeholder="Email"
-                    type="email"
-                    name="email"
-                    required
-                  />
+                <div className="wave-group">
+                <input type="email" className="input" name="email" required />
+                <span className="bar"></span>
+                <label className="label">
+                  <span className="label-char" style={{ '--index': 0 }}>E</span>
+                  <span className="label-char" style={{ '--index': 1 }}>m</span>
+                  <span className="label-char" style={{ '--index': 2 }}>a</span>
+                  <span className="label-char" style={{ '--index': 3 }}>i</span>
+                  <span className="label-char" style={{ '--index': 4 }}>l</span>
+                </label>
+              </div>
                 </li>
                 <li>
                   <input
+                    className='sub'
                     placeholder="Subject"
                     type="text"
                     name="subject"
