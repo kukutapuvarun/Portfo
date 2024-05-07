@@ -115,7 +115,7 @@ a img.icon {
       width: 100%;
       top: 0;
       left: 0;
-      background: #181818;
+      background: #022C43;
       height: 100%;
       margin: 0;
       z-index: 2;
@@ -143,12 +143,18 @@ a img.icon {
       }
      }
 
-     .hamburger-icon,
-     .close-icon {
+     .hamburger-icon{
       color: #fff;
       position: absolute;
       top: 15px;
       right: 15px;
+      display: block;
+     }
+     .close-icon{
+      color: #fff;
+      position: absolute;
+      top: 15px;
+      right: 30px;
       display: block;
      }
   }
