@@ -38,8 +38,8 @@ const Contact = () => {
             />
           </h1>
           <p>
-            I am interested in Job opportunities if you have any other requests or
-            questions, don't hesitate to contact me using below form either.
+              I am interested in job opportunities. If you have any requests or questions, please feel free to contact me at
+              <a href="mailto:kukutapuvarun33@gmail.com"> kukutapuvarun33@gmail.com </a>. Don't hesitate to contact me using the form below.
           </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>

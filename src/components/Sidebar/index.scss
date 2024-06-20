@@ -93,6 +93,12 @@
             }
         }
 
+        a.work-link{
+            &:after{
+                content: 'My Work ';
+            }
+        }
+
         a.contact-link{
             &:after{
                 content: 'CONTACT';

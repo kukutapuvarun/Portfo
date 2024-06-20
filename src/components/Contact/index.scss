@@ -1,6 +1,6 @@
 .contact-form {
     width: 100%;
-    margin-top: 30px;
+    margin-top: 20px;
   
     ul {
       padding: 0;
@@ -150,12 +150,24 @@
       float: right;
       text-align: center;
       margin-right: 10px;
+
+      &:hover{
+        background: #ffd700;
+        color: #333;
+      }
     }
+}
+@media(max-width:1080px){
+  .container.contact-page .text-zone, .container.about-page .text-zone, .container.portfolio-page .text-zone{
+    top: 350px;  
+    width: 80%;
+  }
 }
 
 @media(max-width:400px){
     .container.contact-page .text-zone, .container.about-page .text-zone, .container.portfolio-page .text-zone{
-        width: 80%;
+      top: 300px;  
+      width: 80%;
     }
 }
 
