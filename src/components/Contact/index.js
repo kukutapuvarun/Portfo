@@ -18,7 +18,6 @@ const Contact = () => {
       .then(
         () => {
           alert('Message successfully sent!')
-          window.location.reload(true)
         },
         () => {
           alert('Failed to send the message, please try again')
@@ -46,7 +45,7 @@ const Contact = () => {
               <ul>
                 <li className="half">
                 <div className="wave-group">
-                <input type="text" className="input" required />
+                <input type="text" className="input" name="user_name" required />
                 <span className="bar"></span>
                 <label className="label">
                   <span className="label-char" style={{ '--index': 0 }}>N</span>
@@ -58,7 +57,7 @@ const Contact = () => {
                 </li>
                 <li className="half">
                 <div className="wave-group">
-                <input type="email" className="input" name="email" required />
+                <input type="email" className="input" name="user_email" required />
                 <span className="bar"></span>
                 <label className="label">
                   <span className="label-char" style={{ '--index': 0 }}>E</span>
