@@ -73,7 +73,7 @@ const Mywork = () => {
 
     return (
         <>
-            <div className="container about-page">
+            <div className="container mywork-page">
                 <div className="text-zone">
                     <div className="slider">
                         <div className="slides">

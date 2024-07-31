@@ -110,25 +110,34 @@ img.displaySlide {
 
 @media(max-width:500px){
 
-    .container.about-page{
-        height: 100%;
-        width: 100%;
-    }
+    .container.mywork-page{
+        .text-zone{
+          width: 90%;
+          height: fit-content;
+          align-self: center;
+        }
 
-    .slider{
-        left: 10px;
-        top: 70px;
-    }
+        img.displaySlide{
+            width: 70%;
+        }
 
-    .slider button{
-        top: 40%;
-    }
-
-    .slide-text{
-        overflow: scroll;
-        left: 10px;
-        bottom: 180px;
-        scrollbar-width: auto;
-        display: inline-block;
+        .slider{
+            position: relative;
+            left: 15px;
+            top: 0px;
+        }
+    
+        .slider button{
+            top: 45%;
+        }
+    
+        .slide-text{
+            font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+            align-self: center;
+            color: #fff;
+            text-align: left;
+            left: 20px;
+            bottom: 200px;
+        }
     }
 }
