@@ -77,14 +77,14 @@ const Mywork = () => {
                 <div className="text-zone">
                     <div className="slider">
                         <div className="slides">
-                            <img ref={el => slidesRef.current[0] = el} src={image1} alt="web1" className="slide" />
-                            <img ref={el => slidesRef.current[1] = el} src={image2} alt="web2" className="slide" />
-                            <img ref={el => slidesRef.current[2] = el} src={image3} alt="web3" className="slide" />
-                            <img ref={el => slidesRef.current[3] = el} src={image4} alt="web4" className="slide" />
+                            <img ref={el => slidesRef.current[0] = el} src={image1} alt="Bitcoin Exchange Platform" className="slide" />
+                            <img ref={el => slidesRef.current[1] = el} src={image2} alt="Car Selling Platform" className="slide" />
+                            <img ref={el => slidesRef.current[2] = el} src={image3} alt="Leaf Identification System Using ML" className="slide" />
+                            <img ref={el => slidesRef.current[3] = el} src={image4} alt="SNS App Using MERN Stack" className="slide" />
                         </div>
-                            <button class="button" className="prev" onClick={prevSlide}>Prev</button>
-                            <button class="button" className="next" onClick={nextSlide}>Next</button>
-                        </div>
+                        <button class="button" className="prev" onClick={prevSlide}>Prev</button>
+                        <button class="button" className="next" onClick={nextSlide}>Next</button>
+                    </div>
                     {slideIndex === 0 && <><p className="slide-text">{slideTexts[0][0]}</p><p className="slide-text">{slideTexts[0][1]}</p></>}
                     {slideIndex === 1 && <><p className="slide-text">{slideTexts[1][0]}</p><p className="slide-text">{slideTexts[1][1]}</p></>}
                     {slideIndex === 2 && <><p className="slide-text">{slideTexts[2][0]}</p><p className="slide-text">{slideTexts[2][1]}</p></>}

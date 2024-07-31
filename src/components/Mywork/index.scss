@@ -1,11 +1,36 @@
-.container{
-    justify-content: space-between;
+.container.mywork-page{
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    margin-top: 0;
+    margin-bottom: 40px;
+    left: 40px;
+    text-align: left;
+    font-size: 13px;
+
+    .flat-button{
+        color:#ffd700;
+        font-size: 13px;
+        font-weight: 400;
+        letter-spacing: 4px;
+        font-family: sans-serif;
+        text-decoration: wavy;
+        padding: 10px 18px;
+        border: 1px solid #ffd700;
+        margin-top: 25px;
+        animation: fadeIn 1s 1.8s backwards;
+        white-space: nowrap;
+        width: 8%;
+    
+        &:hover{
+          background: #ffd700;
+          color: #333;
+        }
+    }
 }
 
 .slider {
     position: relative;
-    left: -60px;
-    width: 100%;
+    left: -360px;
+    width: 40%;
     max-width: 900px;
     height: 500px;
     top: 90px;
@@ -22,10 +47,12 @@
 }
 
 .slide-text{
-    text-align: center;
+    text-align: left;
+    width: 45%;
     position: relative;
-    bottom: 430px; 
-    right: -570px;
+    bottom: 415px;
+    right: -630px;
+    color: #fff;
 }
 
 img.displaySlide {
@@ -40,19 +67,9 @@ img.displaySlide {
     overflow: hidden;
 }
 
-.slides {
-    display: flex;
-}
-
-.slide {
-    min-width: 100%;
-    height: auto; 
-    object-fit: cover;
-}
-
 .slider button {
     color: #fff;
-    top: 60%;
+    top: 65%;
     width: 50px;
     transform: translateY(-10%);
     height: 50px;
@@ -112,32 +129,40 @@ img.displaySlide {
 
     .container.mywork-page{
         .text-zone{
-          width: 90%;
+          max-width: fit-content;
           height: fit-content;
           align-self: center;
+
+          .flat-button{
+            width: 25%;
+          }
         }
 
         img.displaySlide{
-            width: 70%;
+            width: 90%;
         }
 
         .slider{
             position: relative;
-            left: 15px;
+            left: 0px;
+            width: 90%;
             top: 0px;
         }
     
         .slider button{
-            top: 45%;
+            top: 40%;
+        }
+
+        button.next{
+            right: 30px;
         }
     
         .slide-text{
             font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-            align-self: center;
-            color: #fff;
+            width: 90%;
             text-align: left;
-            left: 20px;
-            bottom: 200px;
+            left: 0px;
+            bottom: 219px;
         }
     }
 }
